@@ -1,0 +1,40 @@
+Apple,8.0,130,260,34,25
+Asparagus,3.3,20,230,4,2
+Avocado,1.1,50,140,3,0
+Banana,4.5,110,450,30,19
+Bell Pepper,5.3,25,220,6,4
+Broccoli,5.3,45,460,8,2
+Cantaloupe,4.8,50,240,12,11
+Carrot,2.8,30,250,7,5
+Cauliflower,3.5,25,270,5,2
+Celery,3.9,15,260,4,2
+Cucumber,3.5,10,140,2,1
+Grapefruit,5.5,60,160,15,11
+Grapes,4.5,90,240,23,20
+Green Beans,3.0,20,200,5,2
+Green Cabbage,3.0,25,190,5,3
+Green Onion,0.9,10,70,2,1
+Honeydew Melon,4.8,50,210,12,11
+Iceberg Lettuce,3.2,10,125,2,2
+Kiwifruit,5.3,90,450,20,13
+Leaf Lettuce,3.0,15,170,2,1
+Lemon,2.1,15,75,5,2
+Lime,2.4,20,75,7,0
+Mushrooms,3.0,20,300,3,0
+Nectarine,5.0,60,250,15,11
+Onion,5.3,45,190,11,9
+Orange,5.5,80,250,19,14
+Peach,5.3,60,230,15,13
+Pear,5.9,100,190,26,16
+Pineapple,4.0,50,120,13,10
+Plums,5.4,70,230,19,16
+Potato,5.3,110,620,26,1
+Strawberries,5.3,50,170,11,8
+Sweet Cherries,5.0,100,350,26,26
+Radishes,3.0,10,190,3,2
+Summer Squash, 3.5,20,260,4,2
+Sweet Corn,3.2,90,250,18,5
+Sweet Potato,4.6,100,440,23,7
+Tangerine,3.9,50,160,13,9
+Tomato,5.3,25,340,5,3
+Watermelon,10,80,270,21,20
