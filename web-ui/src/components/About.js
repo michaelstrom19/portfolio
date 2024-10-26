@@ -7,10 +7,7 @@ const About = () => {
     <section id="about" className="container text-center">
       <div className="row">
         <div className="col-md-8 offset-md-2">
-          <h2 className="section-title">
-            <FontAwesomeIcon icon={faUser} className="mr-2" />
-            About Me
-          </h2>
+          <h2 className="section-title">About Me</h2>
           <div className="profile-image-container">
             <img
               src="/user.png"

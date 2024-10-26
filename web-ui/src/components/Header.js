@@ -12,28 +12,14 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Navbar bg="dark" expand="lg" className="custom-navbar shadow-sm">
-      <Navbar.Brand as={Link} to="/" className="brand-name">
-        <span className="display-4 text-white ho">Geek</span>
-      </Navbar.Brand>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse text-white" id="navbarNav">
-        <Nav className="ml-auto ">
+    <Navbar className="bg-black custom-navbar shadow-sm">
+      <Navbar.Collapse id="navbarNav">
+        <Nav className="text-center">
           <Nav.Link as={Link} to="/">
             <span>About</span>
             <FontAwesomeIcon
               icon={faInfoCircle}
-              className="ml-2 text-light ho ho"
+              className="ml-2 text-light ho"
             />
           </Nav.Link>
           <Nav.Link as={Link} to="/projects">
@@ -49,17 +35,18 @@ const Header = () => {
             <FontAwesomeIcon icon={faEnvelope} className="ml-2 text-light ho" />
           </Nav.Link>
         </Nav>
-        <Nav className="ml-auto">
-          <Nav.Link href="https://github.com/yourusername">
-            <span className="sr-only">Github</span>
+        <Nav className="ms-auto">
+          <Nav.Link href="https://github.com/yourusername" aria-label="Github">
             <FontAwesomeIcon
               icon={faGithub}
               size="lg"
               className="text-light ho"
             />
           </Nav.Link>
-          <Nav.Link href="https://linkedin.com/in/yourusername">
-            <span className="sr-only">Linkedin</span>
+          <Nav.Link
+            href="https://linkedin.com/in/yourusername"
+            aria-label="Linkedin"
+          >
             <FontAwesomeIcon
               icon={faLinkedin}
               size="lg"
@@ -67,7 +54,7 @@ const Header = () => {
             />
           </Nav.Link>
         </Nav>
-      </div>
+      </Navbar.Collapse>
     </Navbar>
   );
 };
