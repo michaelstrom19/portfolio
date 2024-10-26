@@ -10,9 +10,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-import "./Header.css";
-import "./style.css";
-
 const Header = () => {
   return (
     <Navbar bg="dark" expand="lg" className="custom-navbar shadow-sm">

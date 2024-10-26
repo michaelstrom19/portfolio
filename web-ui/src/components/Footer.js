@@ -5,7 +5,6 @@ import {
   faGithub,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import "./style.css"; // Import your custom CSS file
 
 const Footer = () => {
   return (

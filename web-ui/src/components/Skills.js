@@ -2,7 +2,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { faCogs } from "@fortawesome/free-solid-svg-icons";
-import "./style.css";
 
 const Skills = () => {
   return (
