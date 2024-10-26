@@ -1,7 +1,7 @@
 {
   "name": "web-ui",
   "version": "0.1.0",
-  "homepage": "https://michaelstrohm19.github.io",
+  "homepage": "https://michaelstrohm19.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
