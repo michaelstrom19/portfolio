@@ -12,7 +12,6 @@ const Projects = () => {
 
   return (
     <section id="projects" className="container text-center">
-      <Breadcrumbs paths={breadcrumbsPaths} />
       <h2 className="section-title">
         <FontAwesomeIcon icon={faCode} className="mr-2" />
         Projects
